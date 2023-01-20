@@ -15,7 +15,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     background-color: transparent;
-    box-shadow: 4px 4px 4px ;
+    box-shadow: 2px 2px 4px ;
 }
 
 #logo, #img{
@@ -51,9 +51,6 @@ main{
     align-items: center;
 }
 
-#img1{
-}
-
 #img2{
     position: absolute;
 }
@@ -75,11 +72,12 @@ main{
 h1{
     font-size: 50px;
     font-weight: bold;
-    margin-bottom: -10px;
+    margin-bottom: -15px;
 }
 
 .para1{
-    font-size: 20px;
+    font-size: 25px;
+    color: pink;
 }
 
 button{
@@ -96,4 +94,28 @@ button:hover{
     transition: .3s;
     border: 2px solid white;
     background-color: #3e3c3c;
+}
+
+.gray{
+    background-image: url('img3.png');
+    background-position: center;
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    top:40.6%;
+    left: -0.1%;
+    filter: grayscale();
+    background-color: #3e3c3c;
+    background-color: transparent;
+    text-align: center;
+}
+
+.para2{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-family: 'Shadows Into Light';
+    font-size: 30px;
+    color: pink;
 }
