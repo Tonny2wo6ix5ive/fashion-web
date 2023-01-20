@@ -39,8 +39,9 @@ ul li{
 
 .nav-link:hover{
     transition: .3s;
+    color: pink;
     opacity: .5;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid pink;
 }
 
 main{
@@ -86,7 +87,7 @@ button{
     font-family: 'Shadows Into Light';
     color: white;
     background-color: black;
-    border: 1px solid white;
+    border: 1px solid pink;
 }
 
 button:hover{
@@ -108,6 +109,17 @@ button:hover{
     background-color: #3e3c3c;
     background-color: transparent;
     text-align: center;
+}
+
+.gray2{
+    background-image: url('img3.png');
+    background-position: center;
+    object-fit: cover;
+    position: absolute;
+    top: 36.5%;
+    left: 11.9%;
+    width: 100px;
+    height: 200px;
 }
 
 .para2{
